@@ -1,12 +1,25 @@
-# weather_app
+#Flutter Weather App
 
-A new Flutter project.
+A simple Flutter application that displays the current weather and weekly forecast using the OpenWeatherMap API. It allows to search for cities and view their weather information.
+This project is great for practicing API integration, state management, clean UI, and project structure in Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+#search
+Search for any city
+Fetch real-time weather data
+Navigate to detailed weather view
 
-A few resources to get you started if this is your first Flutter project:
+#Weather Details
+City name
+Temperature in °C / °F
+Add/remove from favorites
+Weather description
+Sunrise & Sunset
+Feels like
+Humidity
+Wind speed
+
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
