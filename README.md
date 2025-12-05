@@ -1,31 +1,4 @@
-
-#Flutter Weather App
-
-A simple Flutter application that displays the current weather and weekly forecast using the OpenWeatherMap API. It allows to search for cities and view their weather information.
-This project is great for practicing API integration, state management, clean UI, and project structure in Flutter.
-
-## Features
-
-#search
-Search for any city
-Fetch real-time weather data
-Navigate to detailed weather view
-
-#Weather Details
-City name
-Temperature in °C / °F
-Add/remove from favorites
-Weather description
-Sunrise & Sunset
-Feels like
-Humidity
-Wind speed
-
-Here is a **clean, professional, English GitHub-style README**, similar to yours but **shorter, simpler, and more polished**, as you asked:
-
-
 # 🌤️ Flutter Weather App
-
 A clean and modern Flutter application that displays real-time weather information using the **OpenWeatherMap Current Weather API**.
 The app includes multiple screens, favorites management, and user temperature unit preferences.
 
@@ -33,13 +6,13 @@ The app includes multiple screens, favorites management, and user temperature un
 
 ## 🚀 Key Features
 
-### 🔍 Search
+### Search
 
 * Search for any city
 * Fetch real-time weather data
 * Navigate to detailed weather view
 
-### 🌦️ Weather Details
+### Weather Details
 
 * City name
 * Temperature in °C / °F
@@ -50,18 +23,17 @@ The app includes multiple screens, favorites management, and user temperature un
 * Sunrise & Sunset
 * Add/remove from favorites
 
-### ⭐ Favorites
+### Favorites
 
 * View list of saved cities
 * Tap any city for full weather details
 * Stored locally with **SharedPreferences**
 
-### ⚙️ Settings
+### Settings
 
 * Switch between **Celsius** and **Fahrenheit**
 * Instant UI updates using **Provider**
 
----
 
 ## 📁 Project Structure
 
@@ -83,9 +55,9 @@ lib/
   main.dart
 ```
 
----
 
-## 🔑 API Key Setup
+
+##  API Key Setup
 
 1. Copy the example config:
 
@@ -99,11 +71,11 @@ lib/config/api_config_example.dart → lib/config/api_config.dart
 const String openWeatherApiKey = 'YOUR_REAL_API_KEY';
 ```
 
-✔️ `api_config.dart` is included in `.gitignore` to keep the key private.
+ `api_config.dart` is included in `.gitignore` to keep the key private.
 
----
 
-## ▶️ Run the App
+
+## Run the App
 
 Install packages:
 
@@ -129,9 +101,9 @@ APK output:
 build/app/outputs/flutter-apk/app-release.apk
 ```
 
----
 
-## 🧰 Tech Stack
+
+## Tech Stack
 
 * Flutter 3.x
 * Dart
@@ -140,14 +112,6 @@ build/app/outputs/flutter-apk/app-release.apk
 * SharedPreferences
 * OpenWeatherMap API
 
----
 
-## 📝 Notes
-
-* The repository includes **only** a safe example of the API config file.
-* Your real API key stays private and local.
-
----
->>>>>>> 1d0b30b (Update README)
 
 
